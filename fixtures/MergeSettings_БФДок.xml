@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.3/config/merge/settings" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" platformVersion="8.3.11">
+	<Parameters>
+		<ConfigurationsRelation>ConfigurationsNotRelated</ConfigurationsRelation>
+		<AllowMainConfigurationObjectDeletion>false</AllowMainConfigurationObjectDeletion>
+		<CopyObjectsMode>false</CopyObjectsMode>
+	</Parameters>
+	<Objects>
+		<Configuration>
+			<Properties>
+				<Property name="Name">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Synonym">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DefaultRoles">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Version">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="UpdateCatalogAddress">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ManagedApplicationModule">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+					<Module>
+						<Methods>
+							<VariableDeclarationArea>
+								<MergeRule>DoNotMerge</MergeRule>
+							</VariableDeclarationArea>
+							<Method name="ПередЗавершениемРаботыСистемы">
+								<MergeRule>DoNotMerge</MergeRule>
+							</Method>
+							<Method name="ПередНачаломРаботыСистемы">
+								<MergeRule>DoNotMerge</MergeRule>
+							</Method>
+							<Method name="ПриНачалеРаботыСистемы" nameInSecondConfiguration="ПриНачалеРаботыСистемы">
+								<MergeRule>DoNotMerge</MergeRule>
+							</Method>
+							<DirectiveArea name="ОбработчикиСобытий">
+								<MergeRule>DoNotMerge</MergeRule>
+							</DirectiveArea>
+							<DirectiveArea name="БФДок_Переменные">
+								<MergeRule>GetFromSecondConfiguration</MergeRule>
+							</DirectiveArea>
+						</Methods>
+					</Module>
+				</Property>
+				<Property name="SessionModule">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Copyright">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ModalityUseMode">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="SynchronousPlatformExtensionAndAddInCallUseMode">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="InterfaceCompatibilityMode">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="CompatibilityMode">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+
+				<Property name="Vendor">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ExternalConnectionModule">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="OrdinaryApplicationModule">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="UseManagedFormInOrdinaryApplication">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="UseOrdinaryFormInManagedApplication">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DefaultReportForm">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DefaultReportVariantForm">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DefaultReportSettingsForm">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DefaultSearchForm">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="CommandInterface">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="HomePageWorkArea">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="MainSectionCommandInterface">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="MainSectionPicture">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ClientApplicationInterface">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="BriefInformation">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DetailedInformation">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Splash">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Copyright">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="VendorInformationAddress">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ConfigurationInformationAddress">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+
+			</Properties>
+		</Configuration>
+		<Object fullName="CommonCommand.Doc_ПрисоединенныеФайлы">
+			<Properties>
+				<Property name="CommandParameterType">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullName="Catalog.Пользователи">
+			<Properties>
+				<Property name="FoldersOnTop">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="CodeLength">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DescriptionLength">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="CheckUnique">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Autonumbering">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="StandardAttributes">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Characteristics">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="InputByString">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DefaultObjectForm">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DefaultListForm">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DefaultChoiceForm">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ObjectModule">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ManagerModule">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="IncludeHelpInContents">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Help">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ObjectPresentation">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullName="Catalog.Пользователи.Attribute.ИдентификаторПользователяИБ">
+			<Properties>
+				<Property name="ToolTip">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Indexing">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Контрагенты">
+			<MergeRule>DoNotMerge</MergeRule>
+			<Properties>
+				<Property name="Synonym">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="CodeLength">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DescriptionLength">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Characteristics">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="SearchStringModeOnInputByString">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DefaultObjectForm">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DefaultListForm">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ObjectModule">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ManagerModule">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ObjectPresentation">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ListPresentation">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Контрагенты.Attribute.Дог_Серия">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Контрагенты.Attribute.Дог_Номер">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+	</Objects>
+</Settings>
